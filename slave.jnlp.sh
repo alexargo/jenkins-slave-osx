@@ -1,7 +1,7 @@
 #!/bin/bash
 
 JENKINS_HOME=$( dirname $0 )
-JENKINS_CONF=${JENKINS_HOME}/Library/Preferences/org.jenkins-ci.slave.jnlp.conf
+JENKINS_CONF=${HOME}/Library/Preferences/org.jenkins-ci.slave.jnlp.conf
 #JENKINS_WRKSPC=${HOME}/Library/Developer/org.jenkins-ci.slave.jnlp
 JENKINS_WRKSPC=${JENKINS_HOME}
 JENKINS_SLAVE=`hostname -s | tr '[:upper:]' '[:lower:]'`
